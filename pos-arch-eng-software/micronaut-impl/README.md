@@ -2,7 +2,10 @@
 
 ## Iniciando Consul
 
-
+Levantando o Consul:
+    
+    consul agent -server -bootstrap-expect=1 -data-dir=consul.d -ui -bind=172.62.3.202
+    
 Consul host:
 
     http://localhost:8500/ui/
