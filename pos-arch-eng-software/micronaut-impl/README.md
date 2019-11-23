@@ -9,6 +9,9 @@ Consul host:
 
 ## Iniciando zipkin
 
+Download Zipkin
+https://zipkin.io/pages/quickstart.html
+
 Zipkin é um sistema de rastreamento distribuído. Para iniciá-lo:
 
 
