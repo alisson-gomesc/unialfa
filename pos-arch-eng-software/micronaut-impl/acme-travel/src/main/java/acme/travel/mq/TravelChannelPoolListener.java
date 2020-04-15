@@ -32,7 +32,5 @@ public class TravelChannelPoolListener extends ChannelInitializer {
 		channel.queueDeclare("pay-service", true, false, false, null);
 		channel.queueBind("pay-service", "acme-queue", "acme.pay.service");
 		
-		channel.queueDeclare("car-service", true, false, false, null);
-		channel.queueBind("car-service", "acme-queue", "acme.car.service");
 	}
 }

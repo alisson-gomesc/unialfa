@@ -82,10 +82,6 @@
     </dependency>
     <dependency>
       <groupId>io.micronaut</groupId>
-      <artifactId>micronaut-management</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>io.micronaut</groupId>
       <artifactId>micronaut-discovery-client</artifactId>
     </dependency>
     <!--  micronaut management and tracing -->

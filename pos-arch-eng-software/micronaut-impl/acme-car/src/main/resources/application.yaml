@@ -28,9 +28,9 @@ consul:
 
 # Message Queue
 rabbitmq:
-    uri: amqp://localhost:5672
-    username: guest
-    password: guest
+    uri: amqp://172.62.3.202:5672
+    username: mq-acme
+    password: mq-acme
 
 # management and tracing
 tracing:
