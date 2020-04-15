@@ -2,12 +2,18 @@
 
 ## Iniciando Consul
 
-
+Levantando o Consul:
+    
+    consul agent -server -bootstrap-expect=1 -data-dir=consul.d -ui -bind=172.62.3.202
+    
 Consul host:
 
     http://localhost:8500/ui/
 
 ## Iniciando zipkin
+
+Download Zipkin
+https://zipkin.io/pages/quickstart.html
 
 Zipkin é um sistema de rastreamento distribuído. Para iniciá-lo:
 
@@ -29,11 +35,11 @@ RabbitMQ host:
 
 ## Estado do Serviço
 
-http://localhost:<port>/acme-car/health
-http://localhost:<port>/acme-fly/health
-http://localhost:<port>/acme-hotel/health
-http://localhost:<port>/acme-pay/health
-http://localhost:<port>/acme-travel/health
+- http://localhost:<port>/acme-car/health
+- http://localhost:<port>/acme-fly/health
+- http://localhost:<port>/acme-hotel/health
+- http://localhost:<port>/acme-pay/health
+- http://localhost:<port>/acme-travel/health
 
 
 # Requests
